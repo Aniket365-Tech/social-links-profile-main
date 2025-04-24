@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Social links profile</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; 
+      color: white;
+      font-size: 16px;
+    
+  }
+    .attribution a { color: hsl(228, 45%, 44%); 
+    }
+    body{
+      background-color:hsl(0, 0%, 8%);
+
+
+    }
+    .main-container{
+      display: flex;
+      min-width: 375px;
+      height: 100vh;
+      justify-content: center;
+      align-items: center;
+      
+      
+    }
+
+    .card{
+      color: white;
+      width: 350px;
+      height: 550px;
+      border-radius: 10px ;
+      background-color:hsl(0, 0%, 12%);
+      justify-content: center;
+      justify-items: center;
+      padding-top: 30px;
+      text-align: center;
+      font-family: "Outfit", sans-serif;
+      font-weight: 400;
+      
+      
+    }
+
+    .profile{
+      display:inline-block;
+      border-radius: 50%;
+      width: 70px;
+      height: 70px;
+    }
+    .profile-secotion{
+      text-align: center;
+    }
+
+    #name{
+      color: white;
+      font-size: 24px;
+      
+    }
+    
+    #address{
+      color:hsl(75, 94%, 57%) ;
+      font-size: 16px;
+    }
+    .button{
+      display: flex;
+      width: 300px;
+      height: 40px;
+      justify-content: center;
+      align-items: center;
+      background-color: hsl(0, 0%, 20%) ;
+      border-radius: 10px;
+    }
+
+    .btn-1{
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+
+    }
+
+  </style>
+</head>
+<body>
+  <div class="main-container">
+    <div class="card">
+      <div class="profile-secotion">
+        <img class="profile" src="./assets/images/dp1.jpeg" alt="dp">
+        <p id="name"> Aniket<br><span id="address">Maharastra, India.</span></p>
+      </div>
+  
+      <p>"Front-end developer and avid reader."</p><br>
+      <div class="button">
+        <a href="https://github.com/dashboard" class="btn-1"> GitHub</a>
+      </div><br>
+      <div class="button">
+        <a href="https://www.frontendmentor.io" class="btn-1"> Frontend MentorGitHub</a>
+      </div><br>
+      <div class="button">
+        <a href="https://www.linkedin.com/" class="btn-1">LinkedIn </a>
+      </div><br>
+      <div class="button">
+        <a href="https://x.com" class="btn-1"> Twitter</a>
+      </div><br>
+      <div class="button">
+        <a href="#" class="btn-1"> Instagram</a>
+      </div>
+    </div>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Aniket</a>.
+  </div>
+</body>
+</html>
